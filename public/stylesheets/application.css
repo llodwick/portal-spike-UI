@@ -1,0 +1,141 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+html, body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+div, p, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, figure {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+select, button, input, textarea {
+  border: none;
+  outline: none;
+  padding: none;
+}
+
+select, button {
+  cursor: pointer;
+}
+
+address, caption, cite, code, dfn, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+}
+
+caption, th {
+  text-align: left;
+}
+
+q:before, q:after {
+  content: '';
+}
+
+abbr, acronym {
+  border: 0;
+}
+
+form {
+  display: inline;
+}
+
+textarea:focus, input:focus {
+  outline: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, address {
+  display: block;
+}
+
+.clear, .clearfloat {
+  clear: both;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #444444;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+input, textarea {
+  border: 1px solid #222222;
+}
+
+.form-buttons {
+  float: right;
+}
+
+.edit-features li {
+  display: inline-block;
+  border: 1px solid #222222;
+  margin: 5px;
+  padding: 5px 10px;
+}
+.edit-features li:first-of-type {
+  margin-left: 0;
+}
+
+.editor {
+  width: 100%;
+  height: 300px;
+}
+
+button {
+  background-color: #0066ff;
+  color: white;
+  padding: 5px 10px;
+}
+
+header {
+  background-color: #222222;
+  color: white;
+  padding: 20px;
+}
+header .profile {
+  float: right;
+}
+
+.main-content {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
